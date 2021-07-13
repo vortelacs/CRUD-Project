@@ -1,5 +1,4 @@
 package com.example.crudproject.model;
-import jdk.jfr.Name;
 
 import javax.persistence.*;
 
@@ -51,11 +50,9 @@ public class Person {
     }
 
 
-
     public Person() {}
 
-    public Person(int id, String firstName, String lastName, String email) {
-        this.id = id;
+    public Person(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;

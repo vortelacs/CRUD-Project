@@ -9,13 +9,13 @@ public interface PersonService {
 
         List<Person> getPersons();
 
-        Person getPersonById(Long id);
+        Person getPersonById(int id);
 
-        Person insert(Person person);
+        Person addPerson(Person person);
 
-        void updatePerson(Long id, Person person);
+        Person updatePerson(Person person);
 
-        void deletePerson(Long PersonId);
+        void deletePerson(int personId);
 
 
 }
