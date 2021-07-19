@@ -8,6 +8,7 @@ public class CrudProjectApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CrudProjectApplication.class, args);
+
     }
 
 
